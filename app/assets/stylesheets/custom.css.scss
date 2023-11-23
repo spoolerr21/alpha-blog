@@ -1,0 +1,26 @@
+/* Custom CSS Class Extended from Bootstrap */
+
+$bg-light: yellow;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Default variable overrides
+$body-bg: #000;
+$body-color: #111;
+
+// Required
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+.navbar {
+    background-color: #FDF6EA !important;
+}
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: yellow;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
